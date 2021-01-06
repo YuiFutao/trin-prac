@@ -10,7 +10,7 @@ window.onload = function () {
   timerid = setInterval(updateTime, 1000);
 
   //ここにjs読み込み完了時に実行する内容を書く
-  function updateTime() {
+  function updateTime(hogehoge) {
     var now = new Date();
     document.getElementById('date').innerHTML = dateToStr24HPad0(now, 'MM/DD');
     document.getElementById('time').innerHTML = dateToStr24HPad0(now, 'hh:mm:ss');
