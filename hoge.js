@@ -4,7 +4,7 @@
 window.onload = function () {
 
   //とりあえず初回ページ表示
-  updateTime()
+  var a = updateTime()
 
   //1秒ごとに表示更新
   timerid = setInterval(updateTime, 1000);
